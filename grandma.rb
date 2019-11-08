@@ -1,19 +1,19 @@
 # Write a speak_to_grandma method.
 
 
-def speak_to_grandma(what)
+def speak_to_grandma(random_word_i_dont_understand_whats_its_use)
   
-  if what == "I LOVE YOU GRANDMA!"
-    what = "I LOVE YOU TOO PUMPKIN!"
+  if random_word_i_dont_understand_whats_its_use == "I LOVE YOU GRANDMA!"
+    random_word_i_dont_understand_whats_its_use = "I LOVE YOU TOO PUMPKIN!"
     
-  elsif what.upcase == what
-    what = "NO, NOT SINCE 1938!"
+  elsif random_word_i_dont_understand_whats_its_use.upcase == random_word_i_dont_understand_whats_its_use
+    random_word_i_dont_understand_whats_its_use = "NO, NOT SINCE 1938!"
     
-  else what = 'HUH?! SPEAK UP, SONNY!'
+  else random_word_i_dont_understand_whats_its_use = 'HUH?! SPEAK UP, SONNY!'
     
   end
   
-  what
+  random_word_i_dont_understand_whats_its_use
 end
 
 # Whatever you say to grandma, she should respond with
